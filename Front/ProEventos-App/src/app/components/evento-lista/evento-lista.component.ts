@@ -1,10 +1,12 @@
 
 
-import { EventoService } from '../../services/evento.service';
 
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { AxiosInterceptorManager } from 'axios';
-import { Evento } from '../../models/Evento';
+
+import { EventoService } from '@app/services/evento.service';
+import { Evento } from '@app/models/Evento';
+
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 import { ToastrService } from 'ngx-toastr';
 import { NgxSpinnerService } from 'ngx-spinner';
