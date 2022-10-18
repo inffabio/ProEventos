@@ -13,10 +13,10 @@ namespace ProEventos.Persistence
     {
         private readonly ProEventosContext _context;
 
-        public ProEventosContext Context { get; }
-        public PalestrantePersist(ProEventosContext _context)
+      //  public ProEventosContext Context { get; }
+        public PalestrantePersist(ProEventosContext context)
         {
-            Context = _context;
+            _context = context;
         }
 
 
